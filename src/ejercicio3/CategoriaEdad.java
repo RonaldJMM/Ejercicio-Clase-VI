@@ -32,21 +32,21 @@ public class CategoriaEdad {
                 edad =entrada.nextInt();
                  //aqui se establecen los condicionales para determinar en que categoriaesta
                 
-                   if(edad==0||edad<=6){
+                   if(edad>=0 && edad<=6){
                    
                    
                        System.out.println("La categoria es Pre infantil");
                    
                    
                    }
-                   if(edad==7||edad<=17){
+                   if(edad>=7&&edad<=17){
                    
                    
                        System.out.println("La categoria es infantil");
                    
                    
                    }
-                if(edad==18||edad<=25){
+                if(edad>=18&&edad<=25){
                    
                    
                        System.out.println("La categoria es Juvenil");
@@ -54,7 +54,7 @@ public class CategoriaEdad {
                    
                    }
                 
-                if(edad==26||edad<=45){
+                if(edad>=26&&edad<=45){
                    
                    
                        System.out.println("La categoria es Mayores");
