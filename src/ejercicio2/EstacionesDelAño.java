@@ -13,11 +13,15 @@ import java.util.Scanner;
  */
 public class EstacionesDelAño {
     
-    
+       //variables
         private int mes;
         private int opcion;
         
-        
+        /**
+         * En esta funcion se determina mediante switch a que estacion pertenece
+         * 
+         * 
+         */
        public void estaciones(){
                 
                 
@@ -30,7 +34,7 @@ public class EstacionesDelAño {
                 System.out.println("Digite por favor el numero del mes correspondiente para determinas estacion");
                 mes =entrada.nextInt();
                 
-                
+                // en esta parte el usuario digita un numero que corresponde al mes 
                 switch(mes){
                 
                     case 1 :
@@ -109,6 +113,7 @@ public class EstacionesDelAño {
                 
                 }
                 
+                //dependiendo de la opcion actua el switch
                 
                 System.out.println("Desea ejecutar nuevamente el programa");
                 System.out.println("1.si");
