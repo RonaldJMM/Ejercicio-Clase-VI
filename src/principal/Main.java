@@ -59,7 +59,7 @@ public class Main {
                
             case 4:
                 //metodo del ejercicio 4
-               
+               obj4.conversionDeSegundos();
                break;
             case 5:
                 //metodo del ejercicio 5
