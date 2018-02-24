@@ -44,7 +44,7 @@ public class Main {
             
             case 1:
                 //metodo del ejercicio 1
-                
+                obj1.calculoPromedioNotas();
                 break;
             
             case 2:
