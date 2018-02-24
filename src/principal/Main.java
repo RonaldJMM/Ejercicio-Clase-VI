@@ -55,7 +55,7 @@ public class Main {
                
             case 3:
                 //metodo del ejercicio 3
-               
+               obj3.categoria();
                break;
                
             case 4:
@@ -64,7 +64,7 @@ public class Main {
                break;
             case 5:
                 //metodo del ejercicio 5
-               
+               obj5.impresionFibonacci();
                break;
                
             case 6:
