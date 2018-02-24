@@ -27,9 +27,9 @@ public class SerieFibonacci {
         serie1=1;
         serie2=1; 
 
-        System.out.print(serie1 + " ");
+        System.out.println("1. " +serie1 + " ");
         for(i=2;i<=num;i++){
-             System.out.print(serie2 + " ");
+             System.out.println(i+". " +serie2 + " ");
              serie2 = serie1 + serie2;
              serie1 = serie2 - serie1;
         }
