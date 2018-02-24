@@ -10,11 +10,14 @@ import java.util.Scanner;
  * @author lenovo
  */
 public class SerieFibonacci {
-    
-    public static void main(String[] args){
+        private int num;
+        private int serie1;
+        private int serie2;
+        private int i;
+    public void impresionFibonacci(){
         
         Scanner entrada = new Scanner(System.in);
-        int num,serie1,serie2,i;
+        
         do{
             System.out.print("Digite el numero hasta donde quiera la serie: ");
             num = entrada.nextInt();
