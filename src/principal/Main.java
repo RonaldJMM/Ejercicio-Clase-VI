@@ -49,6 +49,7 @@ public class Main {
             
             case 2:
                 //metodo del ejercicio 2
+                obj2.estaciones();
                
                break;
                
